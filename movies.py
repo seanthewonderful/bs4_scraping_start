@@ -18,3 +18,7 @@ titles = soup.find_all(name='h3', class_='jsx-4245974604')
 print(titles)
 # for title in titles:
 #     print(title.getText())
+
+with open("movies.txt", "w") as file:
+    for movie in movies:
+        file.write(f"{movie}\n")
