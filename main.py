@@ -36,16 +36,6 @@ print(article_links[mv_index])
 
 
 
-
-
-
-
-
-
-
-
-
-
 # with open('website.html') as file:
 #     contents = file.read()
     
